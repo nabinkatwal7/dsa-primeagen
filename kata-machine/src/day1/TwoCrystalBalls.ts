@@ -6,6 +6,7 @@ export default function two_crystal_balls(breaks: boolean[]): number {
             break
         }
     }
+
     i-=jmpAmount
 
     for (let j=0; j<jmpAmount && i<breaks.length; ++j, ++i){
